@@ -1,0 +1,116 @@
+
+
+.sign { background-color: blue;
+     text-decoration-color: none;
+      font-weight: bold;
+      margin: 0px 25px 0px 0px;
+      
+    }
+ 
+.all {font-size: 13px}
+    
+    
+ .tl ul { 
+    list-style-type: none;
+    margin: 10px;
+    padding: 7px 10px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.034);
+  }
+  
+ .tl li {
+    display: inline-block; text-align: left; margin-top: 5px
+    
+ }
+
+ .apps a {background-image: url("show-apps-button.png");
+     height: 0px; width: 2px; 
+     display: inline-block; 
+     background-position: center;
+      background-repeat: no-repeat;
+      margin: 7px 9px 0px 3px}
+
+
+    
+
+  
+  .tl li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 19px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    
+    
+    
+
+    
+    
+  }
+
+ img {height: 100px; width: 300px;}
+
+nav {display: block; 
+margin-left: 115px; 
+margin-right: auto;
+
+width: 1000px; height: 10px;
+padding-top: 150px;
+text-align: center;}
+
+input[type=search] {text-align: center; padding: 35px;background-color: teal}
+
+
+.bl { bottom:0; width: 100%; position: fixed;
+    list-style-type: none;
+    margin: 0px 0px 0px -35px;
+    padding: -9px 25px 0px 0px;
+    overflow: hidden;
+    background-color: rgb(240, 239, 239);
+  }
+
+  .bl li {text-align: left;margin-top: 30px; display:inline-block;}
+
+  .bl li a {display: block;
+    color: #5f6368;
+    text-align: center;
+    padding: 0px 44px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif; font-size: 13px;
+    text-decoration: none;}
+
+    
+
+.search {background: #fff;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;}
+
+    .sb {background-color: transparent;
+        border: none;
+        margin: 0;
+        padding: 0;
+        color: rgba(0,0,0,.87);
+        word-wrap: break-word;
+        outline: none;
+        display: flex;
+        flex: 100%;
+        -webkit-tap-highlight-color: transparent;
+        margin-top: -37px;
+    }
+.submit {height: 36px;
+     width: 150px;
+     border: none;
+     margin:17px 4px;
+     padding: 0px 16px;
+      box-shadow: 0,0,0,0.1; 
+      background-color:rgb(243, 241, 241);
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 14px; }
