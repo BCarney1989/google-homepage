@@ -60,7 +60,7 @@ width: 1000px; height: 10px;
 padding-top: 150px;
 text-align: center;}
 
-input[type=search] {text-align: center; padding: 35px;background-color: teal}
+input[type=search] {text-align: center; padding: 35px;}
 
 
 .bl { bottom:0; width: 100%; position: fixed;
@@ -82,28 +82,32 @@ input[type=search] {text-align: center; padding: 35px;background-color: teal}
 
     
 
-.search {background: #fff;
-    display: flex;
-    border-radius: 8px;
-    border: 1px solid #dfe1e5;
-    box-shadow: none;
+input[type=text] {padding-left: 15px;
     border-radius: 24px;
-    z-index: 3;
+    border: 1px solid #dfe1e5;
     height: 44px;
-    margin: 0 auto;
-    width: 482px;}
+    width: 583px;
+    background: url("google-mic.jpg") no-repeat scroll 550px 11px;
+    background-size: 24px 24px;
+ }
 
-    .sb {background-color: transparent;
-        border: none;
-        margin: 0;
-        padding: 0;
-        color: rgba(0,0,0,.87);
-        word-wrap: break-word;
-        outline: none;
-        display: flex;
-        flex: 100%;
-        -webkit-tap-highlight-color: transparent;
-        margin-top: -37px;
+    #search {
+        
+        text-rendering: auto;
+        color: initial;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        -webkit-appearance: textfield;
+        -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 11px system-ui;
+    padding: 1px;
     }
 .submit {height: 36px;
      width: 150px;
